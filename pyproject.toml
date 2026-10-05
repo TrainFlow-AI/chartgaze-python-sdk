@@ -1,7 +1,7 @@
 [project]
 name = "chartgaze"
 version = "0.1.0"
-description = "ChartGaze Python SDK — market structure, events, and account context for AI agents"
+description = "ChartGaze by TrainFlow AI — Python SDK for market structure, events, and accounts. For full autonomy use trainflow.dev"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }

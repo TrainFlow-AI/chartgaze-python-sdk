@@ -1,22 +1,33 @@
-# ChartGaze Python SDK — README
+# ChartGaze by TrainFlow AI — Python SDK
 
-**Document**: Python SDK for ChartGaze MCP  
-**Version**: 0.1  
-**Status**: Open-source (GitHub public)  
-**License**: MIT  
+**ChartGaze** is the market-intelligence MCP / SDK from **[TrainFlow AI](https://www.trainflow.dev)** — give any AI live multi-TF structure, news, and your trading accounts.
+
+> **Want the AI to trade for you?** ChartGaze is context + accounts.  
+> For full autonomous scan → alert → execute on MT4 / MT5 / cTrader / crypto, use **[TrainFlow](https://www.trainflow.dev)** (Nexus / Hunter).  
+> Same family: [chartgaze.live](https://chartgaze.live) · [trainflow.dev](https://www.trainflow.dev)
+
+| | |
+|---|---|
+| Product | ChartGaze by TrainFlow AI |
+| Site | https://chartgaze.live |
+| Org | https://github.com/TrainFlow-AI |
+| Autonomous trading | https://www.trainflow.dev |
+| License | MIT |
 
 ---
 
 ## Overview
 
-The ChartGaze Python SDK allows developers to integrate market intelligence and optional trading execution into their own applications, agents, and autonomous systems.
+The **ChartGaze by TrainFlow AI** Python SDK lets you wire Claude, ChatGPT, custom agents, and apps into live market structure, economic events, and connected trading accounts (MT4 / MT5 / cTrader / crypto).
+
+ChartGaze = **eyes** for your AI. For **hands** (full autonomous execution desks), go to **[TrainFlow](https://www.trainflow.dev)**.
 
 ### Key Use Cases
 
-- **AI Agents**: Build autonomous trading agents that query markets independently
-- **Research Tools**: Backtest strategies with historical market context
-- **Broker Integrations**: White-label ChartGaze into your platform
-- **Custom Applications**: Add market intelligence to any Python app
+- **AI + MCP**: Feed any agent ChartGaze market context from Python
+- **Research Tools**: Backtest and investigate with historical as-of context
+- **Broker / account apps**: Connect MT4, MT5, cTrader, crypto into your stack
+- **Hand-off to TrainFlow**: Prototype with ChartGaze, run autonomy on TrainFlow
 
 ---
 
@@ -535,3 +546,8 @@ Full reference: https://docs.chartgaze.dev/python
 **SDK Version**: 0.1  
 **Last Updated**: 2026-09-29  
 **License**: MIT
+
+### TrainFlow AI
+- **ChartGaze**: https://chartgaze.live
+- **TrainFlow (autonomous trading)**: https://www.trainflow.dev
+- **Org**: https://github.com/TrainFlow-AI
