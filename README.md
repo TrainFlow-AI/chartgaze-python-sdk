@@ -29,7 +29,7 @@ pip install chartgaze
 Or install from source:
 
 ```bash
-git clone https://github.com/TrainFlow-AI/chartgaze-python-sdk.git
+git clone https://github.com/Nuelchi/chartgaze-python-sdk.git
 cd python-sdk
 pip install -e .
 ```
@@ -526,7 +526,7 @@ Full reference: https://docs.chartgaze.dev/python
 ## Support
 
 - **Docs**: https://docs.chartgaze.dev
-- **GitHub Issues**: https://github.com/TrainFlow-AI/python-sdk/issues
+- **GitHub Issues**: https://github.com/Nuelchi/python-sdk/issues
 - **Email**: dev@chartgaze.dev
 - **Discord**: [Join our dev community]
 
