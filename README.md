@@ -9,10 +9,15 @@
 | | |
 |---|---|
 | Product | ChartGaze by TrainFlow AI |
-| Site | https://chartgaze.live |
+| Site | https://www.chartgaze.live |
+| Docs | https://www.chartgaze.live/docs |
+| MCP / API | https://api.chartgaze.live |
 | Org | https://github.com/TrainFlow-AI |
 | Autonomous trading | https://www.trainflow.dev |
 | License | MIT |
+
+**Live client:** `ChartGaze(api_key=...)` defaults to `https://api.chartgaze.live` and calls `/mcp/tools`, `/mcp/call`, `/usage/summary`, `/accounts/list`.  
+`propose_trade` / `execute_trade` require `account_id`. Free tier = **10 calls** (1 credit each). Trading stays off until Dashboard → Your AIs (Review / Live).
 
 ---
 
@@ -530,24 +535,24 @@ tg = ChartGaze(config=config)
 
 ## API Reference
 
-Full reference: https://docs.chartgaze.dev/python
+Full reference: https://www.chartgaze.live/docs
 
 ---
 
 ## Support
 
-- **Docs**: https://docs.chartgaze.dev
-- **GitHub Issues**: https://github.com/TrainFlow-AI/python-sdk/issues
-- **Email**: dev@chartgaze.dev
-- **Discord**: [Join our dev community]
+- **Docs**: https://www.chartgaze.live/docs
+- **Agents (Claude / ChatGPT / Grok)**: https://www.chartgaze.live/agents
+- **GitHub Issues**: https://github.com/TrainFlow-AI/chartgaze-python-sdk/issues
+- **Email**: support@chartgaze.live
 
 ---
 
-**SDK Version**: 0.1  
-**Last Updated**: 2026-09-29  
+**SDK Version**: 0.1.1  
+**Last Updated**: 2026-10-06  
 **License**: MIT
 
 ### TrainFlow AI
-- **ChartGaze**: https://chartgaze.live
+- **ChartGaze**: https://www.chartgaze.live
 - **TrainFlow (autonomous trading)**: https://www.trainflow.dev
 - **Org**: https://github.com/TrainFlow-AI
