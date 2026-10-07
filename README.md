@@ -11,12 +11,14 @@
 | Product | ChartGaze by TrainFlow AI |
 | Site | https://www.chartgaze.live |
 | Docs | https://www.chartgaze.live/docs |
-| MCP / API | https://api.chartgaze.live |
+| MCP connector URL | https://api.chartgaze.live/mcp |
+| API / SDK base | https://api.chartgaze.live |
 | Org | https://github.com/TrainFlow-AI |
 | Autonomous trading | https://www.trainflow.dev |
 | License | MIT |
 
-**Live client:** `ChartGaze(api_key=...)` defaults to `https://api.chartgaze.live` and calls `/mcp/tools`, `/mcp/call`, `/usage/summary`, `/accounts/list`.  
+**Live client:** `ChartGaze(api_key=...)` defaults to `https://api.chartgaze.live` and calls `/mcp/tools`, `/mcp/call`, `/usage/summary`, `/accounts/list` (always Bearer-authenticated — not the noauth Directory path).  
+**Chat connectors** (Grok / Cursor / etc.) paste `https://api.chartgaze.live/mcp` — that is Streamable HTTP MCP, separate from this SDK.  
 `propose_trade` / `execute_trade` require `account_id`. Free tier = **10 calls** (1 credit each). Trading stays off until Dashboard → Your AIs (Review / Live).
 
 ---
